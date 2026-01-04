@@ -20,6 +20,28 @@ Code Repository for Financial Engineering. Implements models from Hands-on ML, P
 | **statistics-with-python-textbook** | 파이썬 활용 통계 분석 및 검정 | 《파이썬으로 배우는 통계학 교과서》 |
 | **understanding-financial-ai** | 금융 데이터 분석 및 AI 모델링 기초 | 《금융 AI의 이해》 |
 
+---
+
+## 🚀 How to Run & Edit with Google Colab
+
+이 저장소의 Jupyter Notebook(`.ipynb`) 파일들을 Google Colab에서 바로 실행하고 수정하는 방법입니다.
+
+### 1. 노트북 열기 (Open in Colab)
+원하는 파일을 열람하는 두 가지 방법이 있습니다.
+
+* **방법 A (추천):** 아래 링크 형식을 사용하여 브라우저 주소창에 입력합니다.
+  > `https://colab.research.google.com/github/M4XJUNG/Financial-Engineering-Playground/blob/main/[파일경로]`
+* **방법 B:** [Google Colab](https://colab.research.google.com/) 접속 → `File` > `Open notebook` → `GitHub` 탭 선택 → 이 저장소 주소 붙여넣기.
+
+### 2. 수정한 내용 저장하기 (Save Changes)
+Colab에서 수정하거나 주석을 단 내용을 다시 GitHub 저장소에 반영하려면 다음 단계를 따르세요.
+
+1. 상단 메뉴의 **[파일(File)]** 클릭
+2. **[GitHub에 사본 저장(Save a copy in GitHub)]** 선택
+3. 해당 저장소와 브라우저 인증 진행
+4. 커밋 메시지를 작성하고 확인 클릭
+
+> **⚠️ 주의사항:** 데이터를 불러올 때는 GitHub의 `blob` 주소가 아닌 `raw` 주소를 사용해야 판다스(`pd.read_csv`)에서 오류가 발생하지 않습니다.
 
 ---
 
