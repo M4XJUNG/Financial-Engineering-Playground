@@ -9,15 +9,15 @@ Code Repository for Financial Engineering. Implements models from Hands-on ML, P
 
 | 폴더명 (Folder) | 설명 (Description) | 비고 (Source) |
 | :--- | :--- | :--- |
-| **deep-learning-pytorch-textbook** | 파이토치(PyTorch) 기반의 딥러닝 모델 구현 | 《딥러닝 파이토치 교과서》(https://wikidocs.net/book/2788) |
-| **doit-pandas** | 판다스를 활용한 데이터 전처리 및 시각화 | 《Do it! 데이터 분석을 위한 판다스 입문》 |
-| **financial-data-science-practice** | 금융 공학 데이터를 다루는 실무 테크닉 | 금융 공학 데이터 사이언스 실습 |
+| **deep-learning-pytorch-textbook** | 파이토치(PyTorch) 기반 딥러닝 모델 구현 | [《딥러닝 파이토치 교과서》](https://wikidocs.net/book/2788) |
+| **doit-pandas** | 판다스 활용 데이터 전처리 및 시각화 | [《Do it! 판다스 입문》](https://github.com/easysIT/doit_pandas) |
+| **financial-data-science-practice** | 금융 공학 데이터 실무 테크닉 | 금융 공학 데이터 사이언스 실습 |
 | **intro-to-ml-with-python** | 지도/비지도 학습 및 특성 공학 기초 | 《파이썬 라이브러리를 활용한 머신러닝》 |
-| **python-machine-learning-perfect-guide** | 머신러닝의 핵심 알고리즘 및 사이킷런 실습 | 《파이썬 머신러닝 완벽 가이드》 |
-| **quant-investment-portfolio-python** | 퀀트 투자 전략 구현 및 포트폴리오 최적화 | 《파이썬을 이용한 퀀트 투자 포트폴리오 만들기》 |
-| **release-your-product-with-fastapi** | FastAPI를 활용한 웹 서비스 배포 및 API 구축 | 《기획에서 출시까지 FastAPI 개발 백서》 |
+| **python-machine-learning-perfect-guide** | 머신러닝 핵심 알고리즘 및 사이킷런 | 《파이썬 머신러닝 완벽 가이드》 |
+| **quant-investment-portfolio-python** | 퀀트 투자 전략 및 포트폴리오 최적화 | 《파이썬 퀀트 투자 포트폴리오》 |
+| **release-your-product-with-fastapi** | FastAPI 활용 웹 서비스 배포 및 API 구축 | 《FastAPI 개발 백서》 |
 | **self-study-ml-dl** | 머신러닝/딥러닝 입문 및 기초 예제 | 《혼자 공부하는 머신러닝+딥러닝》 |
-| **statistics-with-python-textbook** | 파이썬을 활용한 통계 분석 및 검정 | 《파이썬으로 배우는 통계학 교과서》 |
+| **statistics-with-python-textbook** | 파이썬 활용 통계 분석 및 검정 | 《파이썬으로 배우는 통계학 교과서》 |
 | **understanding-financial-ai** | 금융 데이터 분석 및 AI 모델링 기초 | 《금융 AI의 이해》 |
 
 
