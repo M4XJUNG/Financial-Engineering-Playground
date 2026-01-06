@@ -47,30 +47,39 @@ Colab에서 수정하거나 주석을 단 내용을 다시 GitHub 저장소에 �
 
 ---
 
-## 📂 Repository Management (How to Merge)
+## 📂 Repository Management (Git Workflow)
 
-이 저장소는 흩어져 있던 여러 학습 프로젝트를 하나로 통합하여 관리하기 위해 생성되었습니다.  
-기존 리포지토리의 파일 구조를 가져오되, 커밋 기록 충돌을 방지하기 위해 다음과 같은 Git 명령어를 사용하여 병합했습니다.
+이 저장소는 로컬 환경(`c/my-git-projects/Financial-Engineering-Playground`)에서 관리되며, 외부 프로젝트를 통합할 때 다음 과정을 따릅니다.
 
-### 🛠️ 통합 과정 (Git Workflow)
-
-각 주제별 리포지토리를 폴더 단위로 깔끔하게 가져오기 위해 사용한 명령어 모음입니다.
+### 🛠️ Daily Workflow (일상적인 작업)
+작업 전후에 아래 명령어를 통해 최신 상태를 유지합니다.
 
 ```bash
-# 1. 원하는 리포지토리를 특정 폴더명(예: python-study)으로 복제(Clone)합니다.
-# 형식: git clone [가져올_주소] [내가_원하는_폴더명]
-git clone [https://github.com/example/repo-url.git](https://github.com/example/repo-url.git) python-study
+# 1. 깃허브의 최신 변경사항 반영 (작업 전 필수)
+# 팁: Git Bash에서 복사한 주소 붙여넣기는 [Shift + Insert]입니다.
+git pull origin main
 
-# 2. 가져온 폴더 안의 .git 폴더(과거 기록)를 삭제합니다.
-# (이 과정을 거쳐야 서브모듈 오류 없이 내 리포지토리의 일부로 완전히 합쳐집니다.)
-rm -rf python-study/.git
-
-# 3. 위 과정을 필요한 만큼 반복한 뒤, 변경 사항을 스테이징 영역에 올립니다.
+# 2. 작업 완료 후 깃허브 업로드
 git add .
-
-# 4. 통합된 내용을 커밋 메시지와 함께 저장합니다.
-git commit -m "Feat: Merge external study repositories"
-
-# 5. 원격 저장소(GitHub)로 업로드합니다.
-# (대용량 파일이 있을 경우 LFS 업로드 시간이 소요될 수 있습니다.)
+git commit -m "Update: 작업 내용 요약"
 git push origin main
+
+```
+
+### 🧩 외부 프로젝트 병합 (How to Merge)
+새로운 학습 리포지토리를 폴더 단위로 추가하는 방법입니다.
+
+```bash
+# 1. 외부 리포지토리 복제(원하는 리포지토리를 특정 폴더명으로 복제(Clone)합니다.
+# 형식 : git clone [가져올_주소] [내가_원하는_폴더명]
+git clone [https://github.com/example/repo-url.git](https://github.com/example/repo-url.git) folder-name
+
+# 2. 가져온 폴더 안의 과거 기록(.git) 삭제 (충돌 방지 및 단일 저장소 관리)
+rm -rf folder-name/.git
+
+# 3. 변경 사항 반영 및 푸시
+git add .
+git commit -m "Feat: Add folder-name project"
+git push origin main
+```
+---
