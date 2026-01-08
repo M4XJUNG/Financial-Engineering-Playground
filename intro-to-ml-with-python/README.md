@@ -54,3 +54,17 @@ Naver sentiment movie corpus는 루시 님의 [깃허브](https://github.com/e9t
 7장에서 ``spacy``의 영어 언어 모델을 다운로드하려면 다음 명령을 사용합니다.
 
     python -m spacy download en
+
+
+### 공부 사이트 정리 
+[ 홍대 머신 러닝 스터디(https://www.meetup.com/Hongdae-Machine-Learning-Study/) (epoch #2)의 "파이썬 라이브러리를 활용한 머신러닝"(옮긴이 박해선) 슬라이드 자료. ]
+- [1.introduction(epoch#2)](https://www.slideshare.net/slideshow/1introductionepoch2/81331715)
+- [2.supervised learning(epoch#2)-1](https://www.slideshare.net/slideshow/2supervised-learningepoch21/81376909)
+- [2.supervised learning(epoch#2)-2](https://www.slideshare.net/slideshow/2supervised-learningepoch22/81921021)
+- [2.supervised learning(epoch#2)-3](https://www.slideshare.net/slideshow/2supervised-learningepoch23/82877781)
+- [3.unsupervised learing(epoch#2)](https://www.slideshare.net/slideshow/3unsupervised-learingepoch2/83847096)
+- [4.representing data and engineering features(epoch#2)](https://www.slideshare.net/slideshow/4representing-data-and-engineering-featuresepoch2/85852414)
+- [5.model evaluation and improvement(epoch#2) 1](https://www.slideshare.net/slideshow/5model-evaluation-and-improvementepoch2-1-87291436/87291436)
+- [5.model evaluation and improvement(epoch#2) 2](https://www.slideshare.net/slideshow/5model-evaluation-and-improvementepoch2-2-87291677/87291677)
+- [6.algorithm chains and piplines(epoch#2)](https://www.slideshare.net/slideshow/6algorithm-chains-and-piplinesepoch2/88363838)
+- [7.woring with text data(epoch#2)](https://www.slideshare.net/slideshow/7woring-with-text-dataepoch2/88363848)
