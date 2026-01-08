@@ -55,6 +55,10 @@ Colab에서 수정하거나 주석을 단 내용을 다시 GitHub 저장소에 �
 작업 전후에 아래 명령어를 통해 최신 상태를 유지합니다.
 
 ```bash
+# 0. 저장된 로컬 환경으로 바로 cd 하는 방법.
+# 팁: cd c/m(tab)/F(tab)
+cd c/my-git-projects/Financial-Engineering-Playground/
+
 # 1. 깃허브의 최신 변경사항 반영 (작업 전 필수)
 # 팁: Git Bash에서 복사한 주소 붙여넣기는 [Shift + Insert]입니다.
 git pull origin main
