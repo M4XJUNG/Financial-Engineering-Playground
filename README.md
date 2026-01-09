@@ -9,6 +9,7 @@ Code Repository for Financial Engineering. Implements models from Hands-on ML, P
 
 | 폴더명 (Folder) | 설명 (Description) | 비고 (Source) |
 | :--- | :--- | :--- |
+| **cpp-financial-engineering** | C++ 학습 | |
 | **deep-learning-pytorch-textbook** | 파이토치(PyTorch) 기반 딥러닝 모델 구현 | [《딥러닝 파이토치 교과서》](https://wikidocs.net/book/2788) |
 | **doit-pandas** | 판다스 활용 데이터 전처리 및 시각화 | [《Do it! 판다스 입문》](https://github.com/easysIT/doit_pandas) |
 | **financial-data-science-practice** | 금융 공학 데이터 실무 테크닉 | 금융 공학 데이터 사이언스 실습 |
